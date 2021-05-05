@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-core-plugin" version="0.0.1">
+    <name>Core Plugin</name>
+    <description>Framework for cordova Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova</keywords>
+
+    <platform name="android">
+
+        <framework src="com.android.support:support-annotations:27.1.1"/>
+        <framework src="com.google.code.gson:gson:2.8.3"/>
+
+        <source-file src="src/android/src/core/actions/Action.java" target-dir="src/com/cordova/core/actions"/>
+        <source-file src="src/android/src/core/actions/BaseAction.java" target-dir="src/com/cordova/core/actions"/>
+        <source-file src="src/android/src/core/actions/CurrentAction.java" target-dir="src/com/cordova/core/actions"/>
+        <source-file src="src/android/src/core/actions/Factory.java" target-dir="src/com/cordova/core/actions"/>
+        <source-file src="src/android/src/core/actions/LogUtils.java" target-dir="src/com/cordova/core/actions"/>
+        <source-file src="src/android/src/core/actions/Mappers.java" target-dir="src/com/cordova/core/actions"/>
+
+        <source-file src="src/android/src/core/CordovaPlugin.java" target-dir="src/com/cordova/core"/>
+        <source-file src="src/android/src/core/PluginException.java" target-dir="src/com/cordova/core"/>
+        <source-file src="src/android/src/core/Registration.java" target-dir="src/com/cordova/core"/>
+
+    </platform>
+
+</plugin>

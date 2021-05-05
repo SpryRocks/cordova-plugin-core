@@ -1,0 +1,17 @@
+{
+  "name": "cordova-core-plugin",
+  "version": "0.0.1",
+  "description": "Core Plugin",
+  "cordova": {
+    "id": "cordova-core-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "scripts": {},
+  "keywords": [
+    "cordova"
+  ],
+  "author": "",
+  "license": ""
+}
