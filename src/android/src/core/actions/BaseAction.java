@@ -137,7 +137,7 @@ public abstract class BaseAction<TDelegate extends BaseAction.Delegate> implemen
     }
 
     @NonNull
-    protected TDelegate getDelegate() {
+    public TDelegate getDelegate() {
         return delegate;
     }
 
